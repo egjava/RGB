@@ -1,0 +1,77 @@
+
+.square{
+	background-color:red;
+	float:left;
+	width:30%;
+	padding-bottom:30%;
+	margin:1.66%;
+	 border-radius: 25px;
+	 transition: background 0.5s;
+	
+}
+#container{
+	margin: 20px auto;
+	width:600px;
+	
+}
+
+h1{
+	color:white;
+	text-transform: uppercase;
+	background-color:steelblue;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#rgbGame{
+	font-size: 50;
+}
+body{
+	background-color:#232323;
+	 margin: 0;    
+}
+.stripe{
+	background-color:white;
+	height:3%;
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	
+}
+#easyButton, #hardButton, #newButton{
+	border: none;
+	background-color: white;
+	color: steelblue;
+	text-decoration: bold;
+	letter-spacing: 1px;
+	font-size:inherit;
+	font-weight:700;
+	height: 100%;
+	transition: all 0.2s;
+	outline: none;
+}
+#displayMessage
+{
+	width:20%;	
+	display: inline-block;
+}
+#newButton:hover{
+	background:steelblue;
+	color:white;
+}
+#hardButton:hover{
+	background:steelblue;
+	color:white;
+}
+
+#easyButton:hover{
+	background:steelblue;
+	color:white;
+}
+.selected{
+	background:steelblue;
+	color:white;
+}
